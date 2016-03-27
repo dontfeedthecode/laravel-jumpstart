@@ -1,0 +1,28 @@
+{
+    "name": "dontfeedthecode/laravel-jumpstart",
+    "description": "Laravel Jumpstart",
+    "keywords": ["laravel", "admin"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tim Sheehan",
+            "email": "dontfeedthecode@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Dontfeedthecode\\Jumpstart\\": "src/Dontfeedthecode/Jumpstart"
+        }
+    },
+    "minimum-stability": "stable"
+}
